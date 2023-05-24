@@ -1,0 +1,178 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.btn-group button {
+	background-color: #232b43; 
+	border: none; 
+	border-radius: 4px;
+	color: white; /* White text */
+	padding: 10px 20px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	width: 146px;
+	min-width: 100px;
+}
+  
+.btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+}
+  
+  /* Add a background color on hover */
+.btn-group button:hover {
+	background: linear-gradient(to bottom, #0d2365, #232b43);
+}
+
+.container1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #232b43;
+	max-width: 100%;
+}
+
+.container2{
+	width: auto;
+	margin: auto;
+	background-color: rgb(203, 255, 238);
+}
+
+.container3{
+	width: 80%;
+	margin:auto
+}
+
+h1 {
+	text-align: center;
+}
+
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	width: 100%;
+	padding: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+button{
+	background-color: #ffba25;
+	color: rgb(0, 0, 0);
+	padding: 15px 10px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+button{
+	width: 300px;
+}
+
+button:hover {
+	background: linear-gradient(to bottom, #F7D358, #E8AD00);
+}
+
+select {
+	width: 100%;
+	padding: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.container4{
+	width: auto;
+	margin: auto;
+	background-color: #232b43;
+}
+
+.container5{
+	width: 50%;
+	margin:auto;
+	text-align:center
+}
+
+.rating-buttons input[type="radio"] {
+	display: none;
+}
+  
+.rating-buttons label {
+	display: inline-block;
+	padding: 12px 10px;
+	background-color: #ffba25;
+	color: rgb(0, 0, 0);
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 300px;
+}
+  
+.rating-buttons input[type="radio"]:checked + label {
+	background: linear-gradient(to bottom, #F7D358, #E8AD00);
+	color: #000000;
+}
+
+.NextQuestion {
+	display: inline-block;
+	padding: 12px 30px;
+	background: linear-gradient(to bottom, #ffb52b, #ffd332);
+	color: rgb(0, 0, 0);
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 300px;
+}
+
+table {
+	border:100px solid;
+	border-color: #232b43;	
+	width: 100%;
+	margin:auto;
+	text-align: left;
+}
+  
+th{
+	font-size:16px;
+	color:#ffffff;
+	text-align: left;
+	vertical-align: top;
+	padding: 8px;
+}
+
+td{
+	font-size:14px;
+	color:#ffffff;
+	text-align: left;
+	vertical-align: top;
+	padding: 8px;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+  
+::-webkit-scrollbar-track {
+	background-color: #e7ebf4;
+}
+  
+::-webkit-scrollbar-thumb {
+	background-color: #c3c8cf;
+	border-radius: 5px;
+}
+
+
